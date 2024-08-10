@@ -1,6 +1,4 @@
-# README: Shell
-
-This README provides an in-depth explanation of the implementation of various shell commands in our custom shell. 
+### Basic shell implementation in C++
 
 ## Exit Command
 
