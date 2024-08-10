@@ -90,3 +90,5 @@
 - `<sys/wait.h>`: Provides `waitpid()` to wait for the child process to terminate.
 
 ---
+### Refer 
+https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html
