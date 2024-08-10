@@ -17,7 +17,7 @@ This README provides an in-depth explanation of the implementation of various sh
 
 ## Echo Command
 
-### Logic
+
 - **Purpose:** To print the provided message to the standard output.
 - **Implementation:** 
   - The command is identified by checking if the input starts with "echo".
@@ -31,7 +31,7 @@ This README provides an in-depth explanation of the implementation of various sh
 
 ## Pwd Command
 
-### Logic
+
 - **Purpose:** To print the current working directory.
 - **Implementation:** 
   - The command is identified by checking if the input exactly matches "pwd".
@@ -46,7 +46,7 @@ This README provides an in-depth explanation of the implementation of various sh
 
 ## Type Command
 
-### Logic
+
 - **Purpose:** To determine whether a command is a built-in or an external executable.
 - **Implementation:** 
   - The command is identified by checking if the input starts with "type".
@@ -65,7 +65,7 @@ This README provides an in-depth explanation of the implementation of various sh
 
 ## Cd Command
 
-### Logic
+
 - **Purpose:** To change the current working directory.
 - **Implementation:** 
   - The command is identified by checking if the input starts with "cd".
@@ -84,7 +84,7 @@ This README provides an in-depth explanation of the implementation of various sh
 
 ## External Commands Execution
 
-### Logic
+
 - **Purpose:** To execute commands that are not built-in.
 - **Implementation:** 
   - The executable path is determined using the `get_path()` function.
