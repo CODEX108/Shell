@@ -30,6 +30,7 @@
 - **Purpose:** To print the current working directory.
 - **Implementation:** 
   - The command is identified by checking if the input exactly matches "pwd".
+  - The `getenv()` function is used to retrieve the value of an environment variable
   - The `filesystem::current_path()` function is used to get the current directory.
   - The `cout` stream is used to print the directory path.
 
